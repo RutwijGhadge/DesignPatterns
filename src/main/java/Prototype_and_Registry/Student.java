@@ -8,6 +8,13 @@ public class Student implements Prototype<Student>{
     private String Module;
     private int streak;
 
+    private int joinyear;
+    private String track;
+    private String instructorname;
+    private int completionyear;
+    private String paymentpartner;
+    private int batchpsp;
+
     public void setId(int id) {
         this.id = id;
     }
@@ -76,12 +83,8 @@ public class Student implements Prototype<Student>{
         this.batchpsp = batchpsp;
     }
 
-    private int joinyear;
-    private String track;
-    private String instructorname;
-    private int completionyear;
-    private String paymentpartner;
-    private int batchpsp;
+
+
 
     public int getId() {
         return id;
@@ -150,7 +153,7 @@ public class Student implements Prototype<Student>{
     }
 
     @Override
-    public Student clone(){
+    public Student clone(){//clones the common object attribute values
         Student s=new Student();
         s.setId(this.id);
         s.setBatchname(this.batchname);
