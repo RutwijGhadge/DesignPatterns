@@ -2,7 +2,7 @@ package Builder;
 
 public class Main {
     public static void main(String[] args) throws InvalidAgeException, InvalidPspException {
-        Student student=Student.builder()
+       /* Student student=Student.builder()
                 .setId(1)
                 .setAge(25)
                 .setBatch("LLD")
@@ -10,7 +10,17 @@ public class Main {
                 .setPsp(73)
                 .setphonenumber(1234567)
                 .build();   //validate method will be called here
-        System.out.println(student.toString());
+        System.out.println(student.toString());*/
+
+        Phone p=new PhoneBuilder()
+                .setOS("Windows")
+                .setBattery(4500)
+                .setMemory(8)
+                .getPhone();
+
+        System.out.println(p);
+        //getphone method in the PhoneBuilder class  will give the PHONE type Object
+
 
         /*problem Solved by Builder pattern:
         Imagine a complex object that requires laborious, step-by-step initialization of many fields and
