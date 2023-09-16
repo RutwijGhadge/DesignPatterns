@@ -3,7 +3,7 @@ package Adapter;
 import Adapter.ThirdPartyBanks.YesBankAPI;
 
 public class YESBankAPIAdapter implements BankAPIAdapter{
-    private YesBankAPI yesBankAPI;
+    private YesBankAPI yesBankAPI; //object of 3rd party so that we can call methods of 3rd partyss
 //same implementation can be done here similar to ICICIBankAPIAdapter class
     @Override
     public int getBalance(String AccountNumber) {

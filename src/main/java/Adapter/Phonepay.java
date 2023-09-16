@@ -2,7 +2,8 @@ package Adapter;
 
 public class Phonepay {
   // private YesBankAPI yesBankAPI; -> tightly coupled
-    private BankAPIAdapter bankAPIAdapter;  //instead Phonepay will be dependent on bankApiAdapter
+    private BankAPIAdapter bankAPIAdapter;  //interface object
+    //instead Phonepay will be dependent on bankApiAdapter
 
     public void getBalance(){
         //yesBankAPI.Balance("123");//this is for yesbankApi

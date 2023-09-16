@@ -5,7 +5,7 @@ import Adapter.ThirdPartyBanks.ICICIBankAPI;
 
 public class ICICIBankAPIAdapter implements BankAPIAdapter{
     //now this ICICIBankAPIAdapter will talk with the ICICIBankAPI
-    private ICICIBankAPI iciciBankAPI;
+    private ICICIBankAPI iciciBankAPI; //object of 3rd party so that we can call methods of 3rd partyss
 
     @Override
     public int getBalance(String AccountNumber) {
