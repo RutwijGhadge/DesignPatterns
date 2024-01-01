@@ -3,7 +3,7 @@ package Singleton;
 public class singleton {
     private static singleton instance=null;
     private singleton(){//private constructor is used so that object can't be created using the new keyword 
-
+        //cannot be accessed from outside of class
     }
     public static singleton getInstance(){//can use synchronized lock here also but the performance will be slow
         if(instance==null){

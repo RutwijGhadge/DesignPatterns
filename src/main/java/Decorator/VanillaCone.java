@@ -1,13 +1,14 @@
 package Decorator;
 
-//Can used as both base and Addon
+//Can Used as both base and Addon
 public class VanillaCone implements Dessert{
     private Dessert dessert;
 
     public VanillaCone(Dessert dessert){//if the vanilla cone acts as a Addon
         this.dessert=dessert;
     }
-    public VanillaCone() {//if the vanilla cone is a base
+    public VanillaCone() {
+        //if the vanilla cone is a base
     }
 
 
@@ -24,6 +25,6 @@ public class VanillaCone implements Dessert{
         if(dessert==null)//just a base
             return "Vanilla Cone";
         else            //Addon
-            return dessert.getDescription()+" Vanilla Cone ";
+            return dessert.getDescription()+ " Vanilla Cone " ;
     }
 }

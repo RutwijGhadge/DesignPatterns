@@ -108,11 +108,15 @@ public class Student {
 Once upon a time, there was a developer who thought code was too complex.
 She wanted a way to create objects without the hassle of defining their properties every time.
 Then, she discovered the 𝐁𝐮𝐢𝐥𝐝𝐞𝐫 𝐃𝐞𝐬𝐢𝐠𝐧 𝐏𝐚𝐭𝐭𝐞𝐫𝐧 🚀
-The Builder design pattern is a classic pattern in software engineering that helps build complex objects using simple steps.
+The Builder design pattern is a classic pattern in software engineering that helps build complex objects
+using simple steps.
 Here's how it works:
-Suppose you need to create a complex object with many optional attributes. Instead of having multiple constructors with different parameters, you can use the builder design pattern.
-First, create a builder class that matches the complex object’s structure. Each attribute has a method that can set its value.
-Next, create a director class that will use the builder class to create objects. It has a set of methods that define the order in which the builder's methods will be called.
+Suppose you need to create a complex object with many optional attributes.
+Instead of having multiple constructors with different parameters, you can use the builder design pattern.
+First, create a builder class that matches the complex object’s structure.
+Each attribute has a method that can set its value.
+Next, create a director class that will use the builder class to create objects.
+It has a set of methods that define the order in which the builder's methods will be called.
 Finally, call the director's method to build the object instance.
 
 Here's an example:

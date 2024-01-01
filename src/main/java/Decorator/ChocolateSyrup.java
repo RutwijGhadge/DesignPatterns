@@ -1,5 +1,5 @@
 package Decorator;
-
+//as a addon
 public class ChocolateSyrup implements Dessert{
     private Dessert dessert;
     public ChocolateSyrup(Dessert dessert) {
