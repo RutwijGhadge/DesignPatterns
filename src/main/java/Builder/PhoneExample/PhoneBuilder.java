@@ -1,4 +1,4 @@
-package Builder;
+package Builder.PhoneExample;
 
 public class PhoneBuilder {
     private String name;

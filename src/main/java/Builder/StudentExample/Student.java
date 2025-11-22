@@ -1,4 +1,4 @@
-package Builder;
+package Builder.StudentExample;
 
 public class Student {
     private int id;
