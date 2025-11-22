@@ -16,6 +16,7 @@ public class Main {
                 .setOS("Windows")
                 .setBattery(4500)
                 .setMemory(8)
+                .setName("Micro max")
                 .getPhone();
 
         System.out.println(p);

@@ -1,13 +1,13 @@
 package Builder;
 
 public class Phone {
-    private String name;
-    private String OS;
-    private int memory;
-    private int battery;
-    private int ram;
-    private int version;
-    private String processor;
+    private final String name;
+    private final String OS;
+    private final int memory;
+    private final int battery;
+    private final int ram;
+    private final int version;
+    private final String processor;
 
     @Override
     public String toString() {
