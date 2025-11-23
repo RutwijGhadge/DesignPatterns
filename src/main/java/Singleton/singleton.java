@@ -9,7 +9,7 @@ public class singleton {
         if(instance==null){
             synchronized(singleton.class) {//class level lock
                 if (instance == null) {
-                    instance = new singleton();//private constructor is called
+                    instance = new singleton();//private constructor called from inside the class.
                 }
             }
         }
@@ -35,8 +35,8 @@ public class singleton {
                 + z.hashCode());
     }
 }
-//O/p -> only one object will be created
-//since the constructor is static user cant call/create the object from outside the class hence we use static keyword
+//O/P -> only one object will be created
+//since the constructor is static user can't call/create the Multiple Object
 // static will allow you to invoke the private constructor without an instance of class.
 //Early Instantiation: creation of instance at load time.
 //Lazy Instantiation: creation of instance when required

@@ -36,7 +36,7 @@ public class Main {
 
         if validation gets successful then the student object gets created
         else it will throw the exceptions
-        also follows OCP as you dont need to modify the code as in when if
+        also follows OCP as you don't need to modify the code as in when if
         some of the attributes are not present in the object
 
 

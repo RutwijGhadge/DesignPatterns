@@ -21,9 +21,8 @@ public class FactoryDesignPattern {
             triangle.draw();
     }
 }
-
 /*
-In this example:
+//In this example:
 The Shape interface declares a method draw() that all shapes will implement.
 Circle, Square, and Rectangle are concrete implementations of the Shape interface,
 each providing its own implementation of the draw() method.
