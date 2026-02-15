@@ -1,7 +1,7 @@
 package Decorator;
-
-public class VanillaScoop implements Dessert{//can only be the addon
-    private Dessert dessert;
+//can only be the addon
+public class VanillaScoop implements Dessert{
+    private final Dessert dessert;
 
     public VanillaScoop(Dessert dessert) {
         this.dessert=dessert;

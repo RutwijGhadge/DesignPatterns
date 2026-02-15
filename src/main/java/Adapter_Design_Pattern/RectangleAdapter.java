@@ -7,17 +7,16 @@ into your existing system because of its incompatible interfaces.
  */
 
 public class RectangleAdapter implements Shape{
-    Rectangle rectangle=new Rectangle();
+    Rectangle rectangle;
 
     public RectangleAdapter(Rectangle rectangle) {
+        this.rectangle=rectangle;
     }
 
     @Override
-
     public double getArea() {
         // Adapter's implementation of getArea by using calculateArea() from Rectangle
-       double area= rectangle.CalculateArea();
-        return area;
+        return rectangle.CalculateArea();
     }
 
     @Override

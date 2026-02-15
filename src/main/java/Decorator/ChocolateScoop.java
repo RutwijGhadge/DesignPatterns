@@ -1,8 +1,8 @@
 package Decorator;
+//Can Only be Addon
+public class ChocolateScoop implements Dessert{
 
-public class ChocolateScoop implements Dessert{//Can Only be Addon
-
-    private Dessert dessert;
+    private final Dessert dessert;
     public ChocolateScoop(Dessert dessert) {
         this.dessert=dessert;
     }

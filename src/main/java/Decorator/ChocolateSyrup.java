@@ -1,7 +1,7 @@
 package Decorator;
 //as a addon
 public class ChocolateSyrup implements Dessert{
-    private Dessert dessert;
+    private final Dessert dessert;
     public ChocolateSyrup(Dessert dessert) {
         this.dessert=dessert;
     }
