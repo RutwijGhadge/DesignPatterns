@@ -15,7 +15,11 @@ public class Main {
     }
 }
 
+
 /*
+
+Ref Document : https://medium.com/@akshatsharma0610/proxy-design-pattern-java-with-example-and-code-6b15567b8dc0
+
 Proxy Design Pattern is a structural design pattern that lets you provide a substitute or placeholder for another object
 to control access to it .
 
