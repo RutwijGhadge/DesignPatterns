@@ -17,6 +17,6 @@ public class DatabaseProxy implements DataBaseExecutor{
             System.out.println("Cannot Execute Query , ADMIN Permission Needed");
             return;
         }
-        db.execute(query,this.id);
+        db.execute(query,this.id); //Only Admin can execute the Query
     }
 }

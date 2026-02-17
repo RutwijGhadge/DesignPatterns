@@ -7,10 +7,10 @@ public class Main {
       dataBaseExecutor1.executeQuery("WRITE");
       dataBaseExecutor1.executeQuery("DELETE");
 
-        DataBaseExecutor dataBaseExecutor2 = new DatabaseProxy("Admin");
-        dataBaseExecutor2.executeQuery("READ");
-        dataBaseExecutor2.executeQuery("WRITE");
-        dataBaseExecutor2.executeQuery("DELETE");
+      DataBaseExecutor dataBaseExecutor2 = new DatabaseProxy("Admin");
+      dataBaseExecutor2.executeQuery("READ");
+      dataBaseExecutor2.executeQuery("WRITE");
+      dataBaseExecutor2.executeQuery("DELETE");
 
     }
 }
