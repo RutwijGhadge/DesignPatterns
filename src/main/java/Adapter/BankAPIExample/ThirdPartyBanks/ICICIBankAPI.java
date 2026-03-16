@@ -1,4 +1,6 @@
-package Adapter.ThirdPartyBanks;
+package Adapter.BankAPIExample.ThirdPartyBanks;
+
+import Adapter.BankAPIExample.BankAccountDetails;
 
 public class ICICIBankAPI {
 

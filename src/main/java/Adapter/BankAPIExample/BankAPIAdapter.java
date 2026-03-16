@@ -1,4 +1,4 @@
-package Adapter;
+package Adapter.BankAPIExample;
 
 public interface BankAPIAdapter {
     int getBalance(String AccountNumber);

@@ -1,8 +1,8 @@
-package Adapter;
+package Adapter.BankAPIExample;
 
-import Adapter.ThirdPartyBanks.YesBankAPI;
+import Adapter.BankAPIExample.ThirdPartyBanks.YesBankAPI;
 
-public class YESBankAPIAdapter implements BankAPIAdapter{
+public class YESBankAPIAdapter implements BankAPIAdapter {
     private YesBankAPI yesBankAPI; //object of 3rd party so that we can call methods of 3rd partyss
 //same implementation can be done here similar to ICICIBankAPIAdapter class
     @Override

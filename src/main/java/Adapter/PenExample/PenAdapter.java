@@ -1,6 +1,6 @@
-package Adapter;
+package Adapter.PenExample;
 
-public class PenAdapter implements Pen{
+public class PenAdapter implements Pen {
 
     PilotPen pp=new PilotPen();//object of 3rd party so that we can call methods of 3rd partyss
     @Override

@@ -1,5 +1,9 @@
 package Adapter;
 
+import Adapter.PenExample.AssignmentWork;
+import Adapter.PenExample.Pen;
+import Adapter.PenExample.PenAdapter;
+
 public class Main {
     public static void main(String[] args) {
 

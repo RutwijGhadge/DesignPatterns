@@ -1,4 +1,4 @@
-package Adapter.ThirdPartyBanks;
+package Adapter.BankAPIExample;
 
 public class BankAccountDetails {
 

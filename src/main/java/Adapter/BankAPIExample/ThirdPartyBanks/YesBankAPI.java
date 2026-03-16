@@ -1,4 +1,4 @@
-package Adapter.ThirdPartyBanks;
+package Adapter.BankAPIExample.ThirdPartyBanks;
 
 public class YesBankAPI {
     public float Balance(String CustomerId){

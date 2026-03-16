@@ -1,9 +1,8 @@
-package Adapter;
+package Adapter.BankAPIExample;
 
-import Adapter.ThirdPartyBanks.BankAccountDetails;
-import Adapter.ThirdPartyBanks.ICICIBankAPI;
+import Adapter.BankAPIExample.ThirdPartyBanks.ICICIBankAPI;
 
-public class ICICIBankAPIAdapter implements BankAPIAdapter{
+public class ICICIBankAPIAdapter implements BankAPIAdapter {
     //now this ICICIBankAPIAdapter will talk with the ICICIBankAPI
     private ICICIBankAPI iciciBankAPI; //object of 3rd party so that we can call methods of 3rd partyss
 

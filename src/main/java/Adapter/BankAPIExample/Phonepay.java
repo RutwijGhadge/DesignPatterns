@@ -1,4 +1,4 @@
-package Adapter;
+package Adapter.BankAPIExample;
 
 public class Phonepay {
   // private YesBankAPI yesBankAPI; -> tightly coupled

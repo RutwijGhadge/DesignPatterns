@@ -1,4 +1,4 @@
-package Adapter;
+package Adapter.PenExample;
 
 public class PilotPen{
 

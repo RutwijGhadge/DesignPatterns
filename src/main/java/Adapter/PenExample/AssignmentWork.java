@@ -1,4 +1,4 @@
-package Adapter;
+package Adapter.PenExample;
 
 public class AssignmentWork {
     private Pen p;//Interface Object
